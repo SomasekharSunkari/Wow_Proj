@@ -1,0 +1,71 @@
+[
+  {
+    "inputs": [],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "hash",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "issuer",
+        "type": "address"
+      }
+    ],
+    "name": "CertificateAdded",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "hash",
+        "type": "string"
+      }
+    ],
+    "name": "storeHash",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "hash",
+        "type": "string"
+      }
+    ],
+    "name": "verifyHash",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
