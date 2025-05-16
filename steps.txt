@@ -1,0 +1,12 @@
+--> In AWS Ec2 Instace -----
+truffle compile
+truffle migrate --network development
+-- have to change contract address in Backend/.env
+then node server.js
+
+then go to frontend folder and run ---------->  npm start
+
+
+
+
+ganache --host 0.0.0.0
