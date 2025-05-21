@@ -1,6 +1,9 @@
 {
   "name": "certificate-verification-backend",
   "version": "1.0.0",
+   "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "aws-sdk": "^2.1048.0",
     "cors": "^2.8.5",
