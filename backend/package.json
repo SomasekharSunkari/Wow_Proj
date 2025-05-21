@@ -2,7 +2,7 @@
   "name": "certificate-verification-backend",
   "version": "1.0.0",
    "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "aws-sdk": "^2.1048.0",
